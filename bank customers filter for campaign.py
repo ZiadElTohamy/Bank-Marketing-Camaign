@@ -151,7 +151,7 @@ df.drop(df_unknown_education, inplace=True)
 # In[305]:
 
 
-#removing customers with last failed campaignto not waste this campaign on them
+#removing customers with last failed campaign to not waste this campaign on them
 df_failed_campaign=df[df["poutcome"]=='failure'].index
 
 
